@@ -1,0 +1,31 @@
+/* generales */
+html {
+    background-color: #0F0F0F;
+}
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* logo */
+.logo--imagen {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.logo--titulo {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+/* navBar principal */
+.navbar-principal {
+    background-color: #0F0F0F;
+    padding: 0.5em 1em;
+}
