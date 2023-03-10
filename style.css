@@ -24,8 +24,34 @@ body * {
     text-decoration: none;
 }
 
+/* acceder */
+.acceder {
+    color: #62A6FA;
+    border: 1px solid lightgrey;
+    border-radius: 1.5em;
+    background-color: inherit;
+    padding: 0.2em 0.5em;
+}
+
+.acceder * {
+    padding: 0 0.1em;
+}
+
+.acceder--titulo {
+    font-weight: 600;
+}
+
+.acceder--imagen {
+    font-size: 1.2rem;
+}
+
+.acceder:hover {
+    background-color:#497CBA;
+}
+
 /* navBar principal */
 .navbar-principal {
     background-color: #0F0F0F;
+    background-color: blue;
     padding: 0.5em 1em;
 }
