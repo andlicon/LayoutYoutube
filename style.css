@@ -49,6 +49,17 @@ body * {
     background-color:#497CBA;
 }
 
+/* Boton opciones */
+.mas-opciones {
+    background-color: inherit;
+    border: none;
+}
+
+.mas-opciones--imagen {
+    font-size: 1rem;
+    color: white;
+}
+
 /* navBar principal */
 .navbar-principal {
     background-color: #0F0F0F;
