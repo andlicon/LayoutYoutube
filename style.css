@@ -49,20 +49,35 @@ body * {
     background-color:#497CBA;
 }
 
-/* Boton opciones */
-.mas-opciones {
+/* boton circular */
+.boton-circular {
     background-color: inherit;
     border: none;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    transition: all 0.1s ease-in-out;
 }
 
-.mas-opciones--imagen {
-    font-size: 1rem;
+.boton-circular--fondo {
+    background-color: #1f1f1fee;
+}
+
+.boton-circular--imagen {
+    font-size: 1.3rem;
     color: white;
+}
+
+.boton-circular:active {
+    background-color: #303030;
+    border: 1px solid gray;
+}
+
+.buscador * {
+    margin: 0 0.3em;
 }
 
 /* navBar principal */
 .navbar-principal {
     background-color: #0F0F0F;
-    background-color: blue;
     padding: 0.5em 1em;
 }
