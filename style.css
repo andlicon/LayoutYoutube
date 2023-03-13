@@ -1,5 +1,5 @@
 /* generales */
-html {
+html, body {
     background-color: #0F0F0F;
 }
 
@@ -254,6 +254,61 @@ body * {
     font-size: 0.6em;
     display: block;
 }
+
+/* miniatura */
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+.miniatura-canal-icono {
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+}
+
+.miniatura {
+    color: white;
+    background-color: #0F0F0F;
+}
+
+.miniatura-canal-info {
+    color: lightgrey;
+}
+
+.miniatura-titulo {
+    margin-bottom: 0.2em;
+    font-size: 1rem;
+}
+
+.miniatura-canal-txt {
+    display: block;
+    margin: 0;
+    font-size: .7rem;
+}
+
+.miniatura-video-info {
+    display: block;
+    margin: 0;
+    font-size: .7rem;
+}
+
+.miniatura-titulo-txt {
+    font-weight: bold;
+}
+
+.miniatura-descripcion {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5em;
+}
+
+.miniatura-row {
+    background-color: #0F0F0F;
+}
+
+
 
 /* responsive */
 @media screen and (max-width: 638px) {
