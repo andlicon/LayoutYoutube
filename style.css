@@ -153,6 +153,17 @@ body * {
     border-radius: 50%;
 }
 
+.boton-salir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-salir i {
+    color: white;
+}
+
+
 .boton-menu-img {
     font-size: 1.3em;
 }
@@ -161,6 +172,88 @@ body * {
     padding: 0.5em 0;
 }
 
+.offcanvas {
+    background-color: #0F0F0F;
+    color: white;
+    max-width: 200px;
+}
+
+.menu-opcion-txt {
+    font-size: 0.8rem;
+}
+
+.menu-opcion {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0;
+}
+
+.menu-opcion * {
+    margin: 0 0.5em;
+}
+
+.menu-opcion {
+    border-radius: 0.4em;
+}
+
+.menu-opcion:hover {
+    background-color: grey;
+}
+
+.mas-opcion:active {
+    background-color: lightgray;
+}
+
+.menu-link {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.menu-opcion-txt {
+    color: white;
+    font-size: 0.7em;
+}
+
+.menu-opcion {
+    background-color: #0F0F0F;
+}
+
+.menu-opcion-img {
+    color: white;
+}
+
+.menu-section {
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+    border-bottom: 1px solid grey;
+}
+
+.menu-section--final {
+    border: 0;
+}
+
+.offcanvas-body {
+    padding: 0;
+    padding-right: 1em;
+}
+
+.offcanvas-header {
+    padding: 0.5em 0 0 0.5em;
+    padding-right: 1em;
+}
+
+.menu-titulo {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.menu-legal {
+    font-size: 0.6em;
+    display: block;
+}
 
 /* responsive */
 @media screen and (max-width: 638px) {
