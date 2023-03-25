@@ -141,6 +141,10 @@ body * {
     background-color: #0F0F0F;
     padding: 0.5em 1em;
     flex-flow: row nowrap;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 /* menu lateral */
