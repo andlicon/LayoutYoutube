@@ -316,6 +316,24 @@ body * {
     padding: 0.5em;
 }
 
+/* navbar minimizado */
+.prueba {
+    border: 1px solid red;
+}
+
+
+.contenido-page {
+    display: flex;
+}
+
+.navbar-minimizado {
+    display: none;
+    position: sticky;
+    height: 100vh;
+    width: 3.5em;
+    top: 0;
+    left: 0;
+}
 
 /* responsive */
 @media screen and (max-width: 638px) {
@@ -338,5 +356,14 @@ body * {
 
     .buscador-contenedor {
         justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-minimizado {
+        display: block;
+    }
+
+    .container-videos {
     }
 }
